@@ -1,0 +1,15 @@
+.animated-text span {text-align:justify;
+    opacity: 0;
+    animation: fadeIn 10s forwards;
+    animation-delay: calc(0.2s * var(--index));
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+.uac{float:right; width: 85px; }
+.eneam{float:left;width: 85px; }
+h1{text-align: center;}
+
